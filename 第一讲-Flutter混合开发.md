@@ -7,7 +7,7 @@
 * 它使用dart开发，相对容易入门
 * 后面flutter应用可以扩展到桌面和web程序
 
----
+
 ## **2. Flutter会污染Native的工程，怎么解决？**
 
 按照应用场景，做两种模式
@@ -21,7 +21,7 @@
   - Android打包成aar-》上传Maven服务器
   - Ios通过cocopod管理，上传到oss-》客户通过pod管理下载oss的framework
 
----
+
 ## **3. 源码加载Flutter**
 ### **3.1 git管理子工程**
 1）**创建android目录-Android仓库目录**
