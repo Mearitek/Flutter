@@ -267,14 +267,15 @@ flutter:
 ```
 
 ## **5 Flutter国际化**
-[国际化](https://flutter.cn/docs/development/accessibility-and-localization/internationalization)
+- [国际化](https://flutter.cn/docs/development/accessibility-and-localization/internationalization)
+- [参考项目](https://zhuanlan.zhihu.com/p/64902546)
 
 ## **6 Dart 互调C和C++**
-[Dart 互调C和C++](https://flutter.cn/docs/development/platform-integration/c-interop)
+- [Dart 互调C和C++](https://flutter.cn/docs/development/platform-integration/c-interop)
 
 ## **插件开发**
-[使用插件](https://flutter.cn/docs/development/packages-and-plugins/using-packages)
-[开发插件](https://flutter.cn/docs/development/packages-and-plugins/developing-packages)
+- [使用插件](https://flutter.cn/docs/development/packages-and-plugins/using-packages)
+- [开发插件](https://flutter.cn/docs/development/packages-and-plugins/developing-packages)
 
 ## **参考资料**
 - [flutter插件仓库](https://pub.flutter-io.cn/packages/)
