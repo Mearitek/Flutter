@@ -237,11 +237,12 @@ mainActivity.startActivity(fluttermyAppIntent);
 
 ## **4. pubspec.yaml详解**
 ```yaml
-name: hybrid #根目录
+name: hybrid #包名
 description: A new flutter module project. #描述
 version: 1.0.0+1
 environment:
   sdk: ">=2.2.2 <3.0.0"
+#添加依赖packages ^表示适配和当前大版本一致的版本，~表示适配和当前小版本一致的版本
 dependencies:
   flutter:
     sdk: flutter
@@ -252,9 +253,11 @@ dev_dependencies:
   #各种依赖包
 flutter:
   uses-material-design: true
+  #添加资源，不单单是图片，images是个和pubspec.yaml配置文件同级的目录，如果不同级，需要添加..
   assets:
     - lib/gallery/example_code.dart
     - packages/flutter_gallery_assets/people/ali_landscape.png
+  #字体设置
   fonts:
     - family: Raleway
       fonts:
