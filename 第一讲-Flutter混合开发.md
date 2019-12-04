@@ -119,10 +119,13 @@ install_all_flutter_pods(flutter_application_path)
 
 ### **3.4 Android Maven加载Flutter**
 
-  TODO
+  - [闲鱼Fultter混合工程持续集成的最佳实践
+闲鱼技术](https://www.jianshu.com/p/7a7780dca2a3)
+  - [打包脚本](https://github.com/CarGuo/flutter_app_lib)
+  - [参考脚本](http://www.longdw.com/android-flutter-native-aar-uploadnexus/)
 ### **3.5 Ios Cocopods加载Flutter**
-
-  TODO
+  - [闲鱼Fultter混合工程持续集成的最佳实践
+闲鱼技术](https://www.jianshu.com/p/7a7780dca2a3)
 ## **4 原生和Flutter通信**
 ### **4.1 Android通信**
 1）**java层定义命令行通道**
